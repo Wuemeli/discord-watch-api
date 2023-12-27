@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class DiscordWatchAPI {
     private apiKey: string;
-    private baseURL: string = 'https://overwatch.wtf/api/v2';
+    private baseURL: string = 'https://discord.watch/api/v2';
 
     constructor(apiKey: string) {
         this.apiKey = apiKey;
