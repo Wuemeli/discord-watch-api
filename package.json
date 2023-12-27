@@ -1,7 +1,7 @@
 {
   "name": "discord-watch-api",
   "author": "Wuemeli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "module": "src/index.ts",
   "type": "module",
   "repository": {
@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "axios": "^1.6.3",
-    "discord-watch-api": "^1.0.2"
+    "discord-watch-api": "latest"
   }
 }
