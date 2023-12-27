@@ -17,7 +17,7 @@ class DiscordWatchAPI {
             });
             return response.data;
         } catch (error) {
-            console.error(error);
+            throw error;
         }
     }
 
@@ -30,7 +30,7 @@ class DiscordWatchAPI {
             });
             return response.data;
         } catch (error) {
-            console.error(error);
+            throw error;
         }
     }
 
@@ -39,7 +39,7 @@ class DiscordWatchAPI {
             const response = await axios.get(`${this.baseURL}/presence/${id}`);
             return response.data;
         } catch (error) {
-            console.error(error);
+            throw error;
         }
     }
 
@@ -59,7 +59,7 @@ class DiscordWatchAPI {
             });
             return response.data;
         } catch (error) {
-            console.error(error);
+            throw error;
         }
     }
 }
