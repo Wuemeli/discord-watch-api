@@ -1,7 +1,17 @@
 {
   "name": "discord-watch",
+  "author": "Wuemeli",
+  "version": "1.0.0",
   "module": "index.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wuemeli/discord-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wuemeli/discord-watch/issues"
+  },
+  "license": "GPL-3.0",
   "devDependencies": {
     "bun-types": "latest"
   },
