@@ -1,7 +1,7 @@
 {
   "name": "discord-watch-api",
   "author": "Wuemeli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "module": "src/index.ts",
   "type": "module",
   "repository": {
@@ -12,6 +12,12 @@
     "url": "https://github.com/Wuemeli/discord-watch/issues"
   },
   "license": "GPL-3.0",
+  "keywords": [
+    "discord",
+    "watch",
+    "api",
+    "discord-watch"
+  ],
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -19,6 +25,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "axios": "^1.6.3"
+    "axios": "^1.6.3",
+    "discord-watch-api": "^1.0.2"
   }
 }

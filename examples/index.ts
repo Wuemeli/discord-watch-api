@@ -1,4 +1,4 @@
-import DiscordWatchAPI from '../src/index';
+import DiscordWatchAPI from 'discord-watch-api';
 
 const discordWatchAPI = new DiscordWatchAPI('your-api-key');
 

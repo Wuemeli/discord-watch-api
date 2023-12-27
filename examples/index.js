@@ -1,4 +1,5 @@
-const DiscordWatchAPI = require('../index');
+const DiscordWatchAPI = require('discord-watch-api')
+
 
 const discordWatchAPI = new DiscordWatchAPI('your-api-key');
 
