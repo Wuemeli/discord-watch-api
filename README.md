@@ -1,4 +1,3 @@
-```markdown
 # Discord Watch API
 
 This is a Node.js package for interacting with the Discord Watch API. It provides a simple and easy-to-use interface for fetching data from the Discord Watch API.
@@ -55,6 +54,9 @@ The `DiscordWatchAPI` class provides the following methods:
 - `searchApplications(query: string, after_id?: string, sort?: string, after_sort?: number, limit?: number)`: Searches for applications.
 
 All methods are asynchronous and return a Promise that resolves with the data from the Discord Watch API.
+
+## Examples
+Examples can be found in the `examples` directory.
 
 ## License
 
